@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questao 14</title>
+    <style>
+    .container {
+        background-color: blue;
+        display: grid;
+        grid-template-areas:
+        'header header header header header header'
+        'menu main main main right right'
+        'menu footer footer footer footer footer';
+        gap: 10px;
+        padding: 10px;
+    }
+    .container > div {
+        background-color: lightblue;
+        text-align: center;
+        padding: 20px 0px;
+        font-size: 30px;
+    }
+
+    .conteudo1 { 
+        grid-area: header;
+    }
+    .conteudo2 { 
+        grid-area: menu;
+    }
+    .conteudo3 {
+        grid-area: main;
+    }
+    .conteudo4 { 
+        grid-area: right;
+    }
+    .conteudo5 { 
+        grid-area: footer;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="conteudo1">Header</div>
+        <div class="conteudo2">Menu</div>
+        <div class="conteudo3">Main</div>
+        <div class="conteudo4">Right</div>
+        <div class="conteudo5">Footer</div>
+    </div>
+</body>
+</html>
