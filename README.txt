@@ -1,4 +1,4 @@
-1° Optei pelo uso do CSS interno para fazer as questões ficarem mais rápidas e diminuir a quantidade de arquivos.
+1° Optei pelo uso do CSS interno para fazer as questões para diminuir a quantidade de arquivos.
 
 2° No meu PDF, haviam duas questões 11, então deixei como 11A e 11B.
 
